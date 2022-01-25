@@ -1,0 +1,48 @@
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .pro-single-img {
+        height: 486px;
+    }
+
+}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+    .des {
+        padding: 30px 0;
+    }
+
+    .pro-single-img {
+        height: 240px;
+    }
+
+    .box-des h1 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .box-area h1 {
+        font-size: 18px;
+    }
+
+    .box-content {
+        width: 100%;
+        padding: 30px 0 0;
+    }
+
+    .box-area h1 span {
+        float: none;
+        margin: 10px 0 0;
+    }
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
